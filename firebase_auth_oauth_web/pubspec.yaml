@@ -14,7 +14,12 @@ dependencies:
     sdk: flutter
   firebase: ^9.0.0
   firebase_auth: ^1.0.0
-  firebase_auth_oauth_platform_interface: ^1.0.0
+  firebase_auth_oauth_platform_interface:
+    git:
+      url: https://github.com/treeder/firebase_auth_oauth.git
+      path: firebase_auth_oauth_platform_interface
+      ref: wip
+
   firebase_core: ^1.0.0
   js: ^0.6.2
 
