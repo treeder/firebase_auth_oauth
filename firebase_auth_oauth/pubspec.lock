@@ -67,17 +67,21 @@ packages:
   firebase_auth_oauth_platform_interface:
     dependency: "direct main"
     description:
-      path: "../firebase_auth_oauth_platform_interface"
-      relative: true
-    source: path
-    version: "0.2.2"
+      path: firebase_auth_oauth_platform_interface
+      ref: wip
+      resolved-ref: "8758a5d21880ad703b2bee704e093ace4c294b25"
+      url: "https://github.com/treeder/firebase_auth_oauth.git"
+    source: git
+    version: "1.0.0"
   firebase_auth_oauth_web:
     dependency: "direct main"
     description:
-      path: "../firebase_auth_oauth_web"
-      relative: true
-    source: path
-    version: "0.2.2"
+      path: firebase_auth_oauth_web
+      ref: wip
+      resolved-ref: "8758a5d21880ad703b2bee704e093ace4c294b25"
+      url: "https://github.com/treeder/firebase_auth_oauth.git"
+    source: git
+    version: "1.0.0"
   firebase_auth_platform_interface:
     dependency: transitive
     description:
